@@ -70,6 +70,23 @@ a:hover{text-decoration: none; cursor:pointer;}
 }
 
 
+/* Background Textures */
+
+.bloc-bg-texture::before{
+	content:"";
+	background-size: 2px 2px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+.texture-diagonal-lines::before{
+	background: url("img/texture-diag-lines.png");
+	background-size: 10px 10px;
+}
+
+
 /* Light theme */
 
 .d-bloc .card,.l-bloc{
@@ -145,6 +162,11 @@ button{
 
 
 
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.lg-shadow{
+	text-shadow:0 2px 5px rgba(0,0,0,.5);
+}
 
 
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
